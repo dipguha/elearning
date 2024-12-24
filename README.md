@@ -57,3 +57,9 @@ mkdir components
 touch TopNav.js
 ```
 - include TopNav in app.js
+
+# Lecture 8: Ant menu and Icons
+- Install nvm - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+- nvm install 15.4.0
+- nvm use 15.4.0
+- change dependency as per the original source code
