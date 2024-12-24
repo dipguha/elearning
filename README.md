@@ -89,7 +89,11 @@ mkdir routes; cd routes
 touch auth.js
 ```
 
-# Lecture 1: 
+# Lecture 13: Controllers
+```
+mkdir controllers; cd controllers
+touch auth.js
+```
 
 
 # Lecture 1: 
