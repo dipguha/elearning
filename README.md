@@ -25,5 +25,7 @@ node -v
 cd client
 npm init -y
 npm install next react react-dom
+npm install next@latest react@latest react-dom@latest
+mkdir pages
 npm run dev
 ```
