@@ -73,3 +73,25 @@ npm i express@4.17.1 mongoose@5.12.0 cors@2.8.5 dotenv@8.2.0 nodemon@2.0.7 esm@3
 touch server.js
 npm start
 ```
+
+# Lecture 11: Express
+```
+touch .env
+```
+- server.js
+
+
+
+# Lecture 1: 
+
+
+# Lecture 1: 
+
+
+# Lecture 1: 
+
+
+# Lecture 1: 
+
+
+# Lecture 1: 
