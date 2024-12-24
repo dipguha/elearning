@@ -96,10 +96,24 @@ touch auth.js
 ```
 
 
+# Lecture 14: 
+- Mongodb atlas - admin, JS
+- robo3T
+- download compass
+```
+brew tap mongodb/brew
+brew install mongodb-community@4.4
+brew install mongodb-community@4.4
+brew services start mongodb-community@4.4
+brew services stop mongodb-community@4.4
+brew services list
+brew search mongodb
+```
+To install mongodb-compass, run:
+  brew install --cask mongodb-compass
+
 # Lecture 1: 
-
-
-# Lecture 1: 
-
+cd client
+npm i axios@
 
 # Lecture 1: 
