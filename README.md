@@ -47,3 +47,13 @@ mkdir public; cd public; mkdir css; touch styles.css
 - create styles.css
 - import in app.js
 
+# Lecture 7: Pages
+```
+cd pages
+touch login.js
+touch register.js
+cd client
+mkdir components
+touch TopNav.js
+```
+- include TopNav in app.js

@@ -5,6 +5,6 @@ const Index = () => {
             <p1>This is Chandradip</p1>
         </>
     );
-};
+}
 
 export default Index;
