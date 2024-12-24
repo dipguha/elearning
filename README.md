@@ -118,6 +118,9 @@ cd client
 npm i axios@0.21.1
 ```
 - register.js
+```
+git stash
+```
 
 # Lecture 18: 
 
