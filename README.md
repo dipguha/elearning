@@ -123,7 +123,12 @@ git stash
 ```
 
 # Lecture 18: 
-
+```
+mkdir models
+touch user.js
+mkdir utils
+touch auth.js
+```
 
 # Lecture 1: 
 

@@ -5,9 +5,9 @@ import axios from "axios";
 
 const Register = () => {
     
-    const [name, setName] = useState("")
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
+    const [name, setName] = useState("Dip Guha")
+    const [email, setEmail] = useState("dip@gmail.com")
+    const [password, setPassword] = useState("password")
     
     const handleSubmit = async(e) => {
         e.preventDefault();
