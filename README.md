@@ -29,3 +29,12 @@ npm install next@latest react@latest react-dom@latest
 mkdir pages
 npm run dev
 ```
+
+# Lecture 5: Bootstrap and Ant design
+```
+npm i bootstrap
+npm i antd
+sudo chown -R 501:20 "/Users/chandradipguha/.npm"
+```
+- Create _app.js
+- Add index.js
