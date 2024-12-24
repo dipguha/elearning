@@ -63,3 +63,13 @@ touch TopNav.js
 - nvm install 15.4.0
 - nvm use 15.4.0
 - change dependency as per the original source code
+
+# Lecture 9: Registration page
+
+# Lecture 10: Server
+```
+npm init -y
+npm i express@4.17.1 mongoose@5.12.0 cors@2.8.5 dotenv@8.2.0 nodemon@2.0.7 esm@3.2.25 jsonwebtoken@8.5.1 bcrypt@5.0.1 morgan@1.10.0
+touch server.js
+npm start
+```

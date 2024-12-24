@@ -13,7 +13,7 @@ const TopNav = () => {
     <Menu mode="horizontal">
       <Item icon={<AppstoreOutlined />}>
         <Link href="/">
-          <a>App</a>
+          <a>Home</a>
         </Link>
       </Item>
 
