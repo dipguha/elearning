@@ -35,6 +35,15 @@ npm run dev
 npm i bootstrap
 npm i antd
 sudo chown -R 501:20 "/Users/chandradipguha/.npm"
+git clean -fd
 ```
 - Create _app.js
 - Add index.js
+
+# Lecture 6: Custom CSS
+```
+mkdir public; cd public; mkdir css; touch styles.css
+```
+- create styles.css
+- import in app.js
+
