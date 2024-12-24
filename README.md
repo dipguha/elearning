@@ -77,13 +77,17 @@ npm start
 # Lecture 11: Express
 ```
 touch .env
+touch client/.gitignore
+touch server/.gitignore
 ```
 - server.js
 
 
-
-# Lecture 1: 
-
+# Lecture 12: Routes
+```
+mkdir routes; cd routes
+touch auth.js
+```
 
 # Lecture 1: 
 
