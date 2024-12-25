@@ -148,8 +148,16 @@ cd client; touch .gitignore
 cd server; touch .gitignore
 ```
 
-# Lecture 2: 
-
+# Lecture 24: Custom next dev server
+```
+cd client 
+npm i http-proxy-middleware@1.0.6
+npm i express@4.17.1
+touch server.js
+```
+- nextjs document custom server
+- package.json change
+- register.js
 
 # Lecture 2: 
 
