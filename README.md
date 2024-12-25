@@ -141,7 +141,23 @@ npm i react-toastify@7.0.3
 - register.js
 
 
-# Lecture 1: 
+# Lecture 22-23: 
+```
+touch .env.local
+cd client; touch .gitignore
+cd server; touch .gitignore
+```
+
+# Lecture 2: 
 
 
-# Lecture 1: 
+# Lecture 2: 
+
+
+# Lecture 2: 
+
+
+# Lecture 2: 
+
+
+# Lecture 2: 
