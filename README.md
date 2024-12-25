@@ -165,7 +165,7 @@ touch server.js
 
 
 
-# Lecture 26: Login 
+# Lecture 26-28: Login 
 - client/login.js
 - server/routes/auth.js
 - server/controllers/auth.js
@@ -176,7 +176,14 @@ npm i jsonwebtoken@8.5.1
 ```
 
 
-# Lecture 2: 
+# Lecture 29: Global state
+```
+mkdir context
+touch index.js
+```
+- app.js
+- login.js
+- google chrome extensions - react extension
 
 
 # Lecture 2: 
