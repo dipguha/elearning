@@ -165,7 +165,15 @@ touch server.js
 
 
 
-# Lecture 2: 
+# Lecture 26: Login 
+- client/login.js
+- server/routes/auth.js
+- server/controllers/auth.js
+- .env - JWT_SECRET
+```
+cd server
+npm i jsonwebtoken@8.5.1
+```
 
 
 # Lecture 2: 
