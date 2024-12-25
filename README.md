@@ -159,7 +159,10 @@ touch server.js
 - package.json change
 - register.js
 
-# Lecture 2: 
+# Lecture 25: Active nav links
+- register.js
+- TopNav.js
+
 
 
 # Lecture 2: 
