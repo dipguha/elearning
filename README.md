@@ -130,10 +130,15 @@ mkdir utils
 touch auth.js
 ```
 
-# Lecture 1: 
+# Lecture 20: Register user
 
 
-# Lecture 1: 
+# Lecture 21: Toast notification
+```
+npm i react-toastify@7.0.3
+```
+- add toastify in app.js
+- register.js
 
 
 # Lecture 1: 
