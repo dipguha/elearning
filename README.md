@@ -186,4 +186,21 @@ touch index.js
 - google chrome extensions - react extension
 
 
-# Lecture 2: 
+# Lecture 31: Preserve user info
+- login.js
+- context/index.js
+
+# Lecture 32: Logout
+- routes/auth.js
+- controllers/auth.js
+- TopNav.js
+
+
+
+# Lecture 3: 
+
+
+# Lecture 3: 
+
+
+# Lecture 3: 
