@@ -205,17 +205,34 @@ touch index.js
 # Lecture 35: Axios interceptor
 - context/index.js
 
+# Lecture 36: CSRF
+- synopsis.com - what is csrf 
+```
+cd server
+npm i csurf@1.11.0
+npm i cookie-parser@1.4.5
+npm remove csrf
+```
+- server.js
+- client/contect/index.js
 
+# Lecture 37: Verify token and get current user
+```
+cd server
+mkdir middlewares; cd middlewares
+touch index.js
+npm i express-jwt@6.0.0
+```
+- routes/auth.js
+- controllers/auth.js
+- middlewares/index.js
 
-# Lecture 3: 
-
-
-# Lecture 3: 
-
-
-
-# Lecture 3: 
-
+# Lecture 38: Protected page
+```
+cd client/pages
+mkdir user
+touch index.js
+```
 
 # Lecture 3: 
 
