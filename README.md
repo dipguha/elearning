@@ -195,6 +195,23 @@ touch index.js
 - controllers/auth.js
 - TopNav.js
 
+# Lecture 33: conditional 
+- TopNav.js
+
+# Lecture 34: Protecting pages
+- login.js
+- register.js
+
+# Lecture 35: Axios interceptor
+- context/index.js
+
+
+
+# Lecture 3: 
+
+
+# Lecture 3: 
+
 
 
 # Lecture 3: 
