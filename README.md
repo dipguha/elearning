@@ -234,7 +234,16 @@ mkdir user
 touch index.js
 ```
 
-# Lecture 3: 
+# Lecture 39: Wrapper
+- TopNav.js
+```
+cd client/components
+mkdir routes
+touch UserRoute.js
+```
+- controller/auth.js
+- user/index.js
+
 
 
 # Lecture 3: 

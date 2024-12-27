@@ -8,32 +8,33 @@ import {
   UserAddOutlined,
 } from "@ant-design/icons";
 import { Context } from "../context";
-import { useRouter } from "next/router";
 import axios from "axios";
+import { useRouter } from "next/router";
 import { toast } from "react-toastify";
 
 
-const { Item, SubMenu } = Menu;
+const { Item, SubMenu, ItemGroup } = Menu;
+
 
 const TopNav = () => {
-  const [current, setCurrent] = useState("");
+    const [current, setCurrent] = useState("");
 
-  const { state, dispatch } = useContext(Context);
-  const { user } = state;
+    const { state, dispatch } = useContext(Context);
+    const { user } = state;
 
-  const router = useRouter();
+    const router = useRouter();
 
-  useEffect(() => {
-    process.browser && setCurrent(window.location.pathname);
-  }, [process.browser && window.location.pathname]);
+    useEffect(() => {
+      process.browser && setCurrent(window.location.pathname);
+    }, [process.browser && window.location.pathname]);
 
-  const logout = async () => {
-    dispatch({ type: "LOGOUT" });
-    window.localStorage.removeItem("user");
-    const { data } = await axios.get("/api/logout");
-    toast(data.message);
-    router.push("/login");
-  };
+    const logout = async () => {
+      dispatch({ type: "LOGOUT" });
+      window.localStorage.removeItem("user");
+      const { data } = await axios.get("/api/logout");
+      toast(data.message);
+      router.push("/login");
+};
 
   return (
     <Menu mode="horizontal" selectedKeys={[current]}>
@@ -69,17 +70,24 @@ const TopNav = () => {
       )}
 
       {user !== null && (
-        <div style={{ marginLeft: "auto" }}>
-          <SubMenu
-            icon={<CoffeeOutlined />}
-            title={user && user.name}
-            className="float-right"
-          >
-            <Item onClick={logout} className="float-right">
-              Logout
-            </Item>
-          </SubMenu>
-        </div>
+          <div style={{ marginLeft: "auto" }}>
+              <SubMenu
+                icon={<CoffeeOutlined />}
+                title={user && user.name}
+                className="float-right"
+              >    
+                <ItemGroup>
+                  <Item key="/user">
+                    <Link href="/user"> 
+                      <a>Dashboard</a> 
+                    </Link>
+                  </Item>
+                  
+                  <Item onClick={logout}>Logout</Item>
+                </ItemGroup>
+                
+              </SubMenu>
+          </div>
       )}
 
     </Menu>
