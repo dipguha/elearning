@@ -294,7 +294,36 @@ touch userNav.js
 ```
 - client/routes/userRoutes.js
 
-# Lecture 4: 
+# Lecture 50: conditional links
+- TopNav.js
+```
+mkdir instructor; cd instructor
+mkdir course; cd course
+touch create.js
+cd user/
+touch become-instructor.js
+```
+- createCourse.js
+- becomeInstructor.js 
+
+# Lecture 51: Become instructor
+- 
+
+# Lecture 5: 
+
+# Lecture 5: 
 
 
-# Lecture 4: 
+# Lecture 5: 
+
+
+# Lecture 5: 
+
+# Lecture 5: 
+
+
+# Lecture 5: 
+
+# Lecture 5: 
+
+# Lecture 5: 

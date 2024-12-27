@@ -6,7 +6,10 @@ import {
   CoffeeOutlined,
   LoginOutlined,
   UserAddOutlined,
+  CarryOutOutlined,
+  TeamOutlined,
 } from "@ant-design/icons";
+
 import { Context } from "../context";
 import axios from "axios";
 import { useRouter } from "next/router";
@@ -44,6 +47,27 @@ const TopNav = () => {
         </Link>
       </Item>
 
+      {user && user.role && user.role.includes("Instructor") ? (
+        <Item
+          key="/instructor/course/create"
+          onClick={(e) => setCurrent(e.key)}
+          icon={<CarryOutOutlined />}
+        >
+          <Link href="/instructor/course/create">
+            <a>Create Course</a>
+          </Link>
+        </Item>
+      ) : (
+        <Item
+          key="/user/become-instructor"
+          onClick={(e) => setCurrent(e.key)}
+          icon={<TeamOutlined />}
+        >
+          <Link href="/user/become-instructor">
+            <a>Become Instructor</a>
+          </Link>
+        </Item>
+      )}
 
       {user === null && (
         <>
@@ -70,11 +94,12 @@ const TopNav = () => {
       )}
 
       {user !== null && (
-          <div style={{ marginLeft: "auto" }}>
+          //<div style={{ marginLeft: "auto" }}>
               <SubMenu
                 icon={<CoffeeOutlined />}
                 title={user && user.name}
-                className="float-right"
+                //className="float-right"
+                style={{ marginLeft: "auto"}}
               >    
                 <ItemGroup>
                   <Item key="/user">
@@ -87,7 +112,7 @@ const TopNav = () => {
                 </ItemGroup>
                 
               </SubMenu>
-          </div>
+          //</div>
       )}
 
     </Menu>
