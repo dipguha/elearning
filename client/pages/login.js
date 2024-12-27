@@ -7,7 +7,7 @@ import { Context } from "../context";
 import { useRouter } from "next/router";
 
 const Login = () => {
-  const [email, setEmail] = useState("dip1@gmail.com");
+  const [email, setEmail] = useState("chandradip.work@gmail.com");
   const [password, setPassword] = useState("password");
   const [loading, setLoading] = useState(false);
 
@@ -92,6 +92,13 @@ const Login = () => {
             <a>Register</a>
           </Link>
         </p>
+
+        <p className="text-center">
+          <Link href="/forgot-password">
+            <a className="text-danger">Forgot password</a>
+          </Link>
+        </p>
+        
       </div>
     </>
   );

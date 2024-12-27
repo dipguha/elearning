@@ -252,14 +252,24 @@ touch UserRoute.js
 - routes/auth.js
 - controllers/auth.js
 
-# Lecture 41:
+# Lecture 41-42:
 ```
 npm i aws-sdk@2.874.0
 ```
 - controller/auth.js
 
 
-# Lecture 4: 
+# Lecture 43-44-45: Password reset
+- models/user.js - password reset code
+- Login.js
+```
+cd pages
+touch forgot-password.js
+cd server
+npm i nanoid@3.1.22
+```
+router/auth.js
+controller/auth.js
 
 
 # Lecture 4: 
