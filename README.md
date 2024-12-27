@@ -252,9 +252,11 @@ touch UserRoute.js
 - routes/auth.js
 - controllers/auth.js
 
-
-
-# Lecture 4: 
+# Lecture 41:
+```
+npm i aws-sdk@2.874.0
+```
+- controller/auth.js
 
 
 # Lecture 4: 
