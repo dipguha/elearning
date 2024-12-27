@@ -244,6 +244,29 @@ touch UserRoute.js
 - controller/auth.js
 - user/index.js
 
+# Lecture 40: AWS setup IAM
+- IAM - add user - group - access key, secret access key in .env
+- group - attach policy - s3 and ses full access
+- .env
+- elearning, https://535002891355.signin.aws.amazon.com/console
+- routes/auth.js
+- controllers/auth.js
 
 
-# Lecture 3: 
+
+# Lecture 4: 
+
+
+# Lecture 4: 
+
+
+# Lecture 4: 
+
+
+# Lecture 4: 
+
+
+# Lecture 4: 
+
+
+# Lecture 4: 
