@@ -272,10 +272,24 @@ router/auth.js
 controller/auth.js
 
 
-# Lecture 4: 
+# Lecture 46-47: Reset password client
+- forgot-password.js
+routes, controller - auth.js
+- forgot-password.js
+- login.js
+- register.js
 
 
+
 # Lecture 4: 
+- user/index.js
+- forgot-password.js
+- login.js
+```
+cd components
+mkdir nav
+touch userNav.js
+```
 
 
 # Lecture 4: 
