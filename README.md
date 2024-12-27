@@ -281,16 +281,18 @@ routes, controller - auth.js
 
 
 
-# Lecture 4: 
-- user/index.js
+# Lecture 48-49: Stripe setup
+- publishable key - client, secret key - server
 - forgot-password.js
+- user/index.js
 - login.js
+
 ```
 cd components
 mkdir nav
 touch userNav.js
 ```
-
+- client/routes/userRoutes.js
 
 # Lecture 4: 
 
