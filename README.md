@@ -307,23 +307,76 @@ touch become-instructor.js
 - becomeInstructor.js 
 
 # Lecture 51: Become instructor
-- 
+- become-instrctor.js
 
-# Lecture 5: 
+# Lecture 52: Stripe account link Start
+- server/routes/instrctor.js
+- controler
+- .env
+```
+npm i stripe@8.141.0 query-string@7.0.0
+cd route;
+touch instructor.js
+cd controllers/
+touch instructor.js
+```
 
-# Lecture 5: 
+# Lecture 53: Stripe onboarding client
+- server.js
+- instructor.js
 
 
-# Lecture 5: 
+# Lecture 55: Stripe callback page
+```
+cd client/pages; 
+mkdir stripe
+touch callback.js
+```
+
+# Lecture 56: User account status
+- routes/ins.js
+- controllers/
+
+# Lecture 57: Dispatch updated user info
+- callback.js
+- TopNav.js
+
+# Lecture 58: Current instructor server
+- routes/ins.js
+- controller/
+
+# Lecture 59: 
+```
+cd client/components/routes
+touch instructorRoute.js
+cd pages/instructor
+touch index.js
+touch components/nav/InstrctorNav.js
+```
+- course/create.js
+- controller/ins
+
+# Lecture 60: 
+- TopNav.js
+- UserNav.js
+
+# Lecture 61: create course part 1
+- course/create.js
 
 
-# Lecture 5: 
-
-# Lecture 5: 
+# Lecture 6: 
 
 
-# Lecture 5: 
+# Lecture 6: 
 
-# Lecture 5: 
 
-# Lecture 5: 
+# Lecture 6: 
+
+
+# Lecture 6: 
+
+
+# Lecture 6: 
+
+
+# Lecture 6: 

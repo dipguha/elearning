@@ -40,7 +40,7 @@ const TopNav = () => {
 };
 
   return (
-    <Menu mode="horizontal" selectedKeys={[current]}>
+    <Menu mode="horizontal" selectedKeys={[current]} className="mb-2">
       <Item key="/" onClick={(e) => setCurrent(e.key)} icon={<AppstoreOutlined />}>
         <Link href="/">
           <a>Home</a>
@@ -93,26 +93,38 @@ const TopNav = () => {
         </>
       )}
 
+      {user && user.role && user.role.includes("Instructor") && (
+        <Item
+          key="/instructor"
+          onClick={(e) => setCurrent(e.key)}
+          icon={<TeamOutlined />}
+          //className="float-right"
+          style={{ marginLeft: "auto"}}
+        >
+          <Link href="/instructor">
+            <a>Instructor</a>
+          </Link>
+        </Item>
+      )}
+
       {user !== null && (
-          //<div style={{ marginLeft: "auto" }}>
-              <SubMenu
-                icon={<CoffeeOutlined />}
-                title={user && user.name}
-                //className="float-right"
-                style={{ marginLeft: "auto"}}
-              >    
-                <ItemGroup>
-                  <Item key="/user">
-                    <Link href="/user"> 
-                      <a>Dashboard</a> 
-                    </Link>
-                  </Item>
-                  
-                  <Item onClick={logout}>Logout</Item>
-                </ItemGroup>
-                
-              </SubMenu>
-          //</div>
+          <SubMenu
+            icon={<CoffeeOutlined />}
+            title={user && user.name}
+            //className="float-right"
+            style={{ marginLeft: "auto"}}
+          >    
+            <ItemGroup>
+              <Item key="/user">
+                <Link href="/user"> 
+                  <a>Dashboard</a> 
+                </Link>
+              </Item>
+              
+              <Item onClick={logout}>Logout</Item>
+            </ItemGroup>
+            
+          </SubMenu>        
       )}
 
     </Menu>

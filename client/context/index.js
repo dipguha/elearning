@@ -2,12 +2,12 @@ import { useReducer, createContext, useEffect } from "react";
 import axios from "axios";
 import { useRouter, userRouter } from "next/router";
 
-// initial state
+// Represents the global state, which starts with the user set to null.
 const intialState = {
   user: null,
 };
 
-// create context
+// Creates a React Context to share state and actions (dispatch) across the component tree without passing props manually.
 const Context = createContext();
 
 // root reducer
@@ -22,7 +22,7 @@ const rootReducer = (state, action) => {
   }
 };
 
-// context provider
+// Wraps the application to provide access to state and dispatch
 const Provider = ({ children }) => {
     const [state, dispatch] = useReducer(rootReducer, intialState);
 
@@ -75,6 +75,7 @@ const Provider = ({ children }) => {
       getCsrfToken();
     }, []);
 
+    //Provides state and dispatch to the component tree wrapped by this Provider
     return (
       <Context.Provider value={{ state, dispatch }}>{children}</Context.Provider>
     );

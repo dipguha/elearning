@@ -23,7 +23,7 @@ const BecomeInstructor = () => {
     axios
       .post("/api/make-instructor")
       .then((res) => {
-        console.log(res);
+        console.log("res => ", res);
         window.location.href = res.data;
       })
       .catch((err) => {
