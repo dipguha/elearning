@@ -360,14 +360,17 @@ touch components/nav/InstrctorNav.js
 - TopNav.js
 - UserNav.js
 
-# Lecture 61: create course part 1
+# Lecture 61: create course part 1 and 2
 - course/create.js
 
 
-# Lecture 6: 
-
-
-# Lecture 6: 
+# Lecture 63: Create course component
+```
+mkdir components/forms
+touch components/forms/CourseCreateForm.js
+```
+# Lecture 64: 
+- 
 
 
 # Lecture 6: 
