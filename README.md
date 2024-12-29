@@ -370,16 +370,38 @@ mkdir components/forms
 touch components/forms/CourseCreateForm.js
 ```
 # Lecture 64: 
-- 
+- CourseCreateForm.js
+- create.js
 
+# Lecture 65: Image preview
+- course/create.js
+- components/forms/CourseCreateForm.js
 
-# Lecture 6: 
+# Lecture 66: 
+```
+cd client
+npm i react-image-file-resizer@0.4.2
+```
+- create.js
+- components/forms/CourseCreateForm.js
 
+# Lecture 67: AWS S3 bucket policy
+- server/server.js
+```
+touch server/routes/course.js
+touch server/controllers/course.js
+```
+- aws console - iam user
+- s3 - bucket name
 
-# Lecture 6: 
+# Lecture 68: Upload image to S3
+- AWS policy
+- ACL enabled
 
+# Lecture 69: Image removal client
+- client/course/create.js
+- CourseCreateForm.js - remove Badge
 
-# Lecture 6: 
-
-
-# Lecture 6: 
+# Lecture 70: Delete image S3 server
+- routes/course.js
+- controllers/
