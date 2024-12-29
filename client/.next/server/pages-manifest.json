@@ -3,7 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/instructor/course/create": "pages/instructor/course/create.js",
-  "/instructor": "pages/instructor.js",
-  "/user": "pages/user.js",
-  "/": "pages/index.js"
+  "/instructor": "pages/instructor.js"
 }

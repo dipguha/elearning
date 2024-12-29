@@ -405,3 +405,32 @@ touch server/controllers/course.js
 # Lecture 70: Delete image S3 server
 - routes/course.js
 - controllers/
+
+# Lecture 71: Course schema
+```
+touch server/models/course.js
+```
+
+# Lecture 72: Instructor middleware
+- server/middlewares/index.js
+- routes/course.js
+- controllers/course.js
+- client/instrctor/course/create.js
+
+# Lecture 73: Save courses in database
+```
+cd server
+npm i slugify@1.5.0
+```
+- controllers/course.js
+- client/instrctor/course/create.js
+
+
+# Lecture 74: Instructor course in dashboard
+
+# Lecture 7: 
+
+# Lecture 7: 
+
+
+# Lecture 7: 
